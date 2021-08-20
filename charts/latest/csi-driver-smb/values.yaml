@@ -108,7 +108,7 @@ linux:
 windows:
   enabled: false
   dsName: csi-smb-node-win # daemonset name
-  kubelet: 'C:\var\lib\kubelet'
+  kubelet: 'C:\Program Files\Kubernetes\kubelet'
   image:
     livenessProbe:
       repository: mcr.microsoft.com/oss/kubernetes-csi/livenessprobe
